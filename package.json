@@ -1,0 +1,40 @@
+{
+  "name": "stx-vault-sdk",
+  "version": "1.0.0",
+  "description": "Production SDK for STX vault and time-lock applications on the Stacks blockchain.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "stacks",
+    "stx",
+    "vault",
+    "defi",
+    "web3",
+    "time-lock",
+    "stacks-sdk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/investorphem/stx-vault-sdk"
+  },
+  "author": "Oluwafemi Olagoke",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@stacks/connect": "^7.0.1",
+    "@stacks/network": "^7.0.1",
+    "@stacks/transactions": "^7.0.1"
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.3.3"
+  },
+  "bin": {
+    "stx-vault": "./dist/cli.js"
+  }
+}
