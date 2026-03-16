@@ -12,7 +12,7 @@
 
 ## Overview
 
-**STX Vault SDK** is a **production-ready JavaScript/TypeScript SDK** for building **STX vaults and time-lock applications** on the **[Stacks](https://www.stacks.co/)** blockchain.
+**STX Vault SDK** is a **production-ready JavaScript/TypeScript SDK** for building **STX vaults and time-lock applications** on the **[Stacks](https://www.stacks.co/)** blockcain.
 
 It allows developers to:
 
