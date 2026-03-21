@@ -1,7 +1,7 @@
 {
   "name": "stx-vault-sdk",
   "version": "1.0.2",
-  "description": "Production SDK for STX vault and time-lock applicatis on the Stacks blockchain, with CLI, React hooks, analytics, and wallet support.",
+  "description": "Production SDK for STX vault and time-lock applicats on the Stacks blockchain, with CLI, React hooks, analytics, and wallet support.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
