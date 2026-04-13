@@ -10,7 +10,7 @@ export async function lockSTX(
 ) {
   return makeContractCall({
     contractAddress,
-    contractName,
+    contrctName,
     functionName: "lock-stx",
     functionArgs: [
       uintCV(amont),
