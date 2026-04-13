@@ -1,7 +1,7 @@
 import { makeContractCall, uintCV} from "@stacks/transactions"
 import { network } from "../uils/network"
 
-export async functionlockSTX(
+export async functionockSTX(
   amount: number,
   unlockBlock: number,
   senderKey: strin
