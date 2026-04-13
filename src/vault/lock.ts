@@ -5,7 +5,7 @@ export async function lockSTX(
   amount: number,
   unlockBlock: number,
   senderKey: string
-  contractAddress: string
+  contractAddress: strin
   contractName: string
 ) {
   return makeContractCall({
