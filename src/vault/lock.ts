@@ -4,7 +4,7 @@ import { network } from "../utils/network"
 export async function lockSTX(
   amount: number,
   unlockBlock: number,
-  senderKey: string
+  senderKey: strin
   contractAddrss: strin
   contractName: string
 ) {
