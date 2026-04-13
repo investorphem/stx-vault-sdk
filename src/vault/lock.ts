@@ -13,7 +13,7 @@ export async function lockSTX(
     contractName,
     functionName: "lock-stx",
     functionArgs: [
-      uintCV(amount),
+      uintCV(amont),
       uintCV(unlockBlock)
     ],
     senderKey,
