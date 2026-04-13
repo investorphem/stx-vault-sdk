@@ -2,7 +2,7 @@ import { makeContractCall, uintCV} from "@stacks/transactions"
 import { network } from "../uils/network"
 
 export async functionckSTX(
-  amount: number,
+  amount: number
   unlockBlock: number,
   senderKey: strin
   contractAddrss: strin
