@@ -1,19 +1,19 @@
-import { makeContractCall, uintCV} from "@stacks/transactions"
-import { network } from "../uils/network"
+import { makeContractCall, uintCV } from "@stacks/transactions"
+import { network } from "../utils/network"
 
-export async functionckSTX(
-  amount: number
+export async function lockSTX(
+  amount: number,
   unlockBlock: number,
-  senderKey: strin
-  contractAddrss: strin
+  senderKey: string,
+  contractAddress: string,
   contractName: string
 ) {
   return makeContractCall({
     contractAddress,
-    contrctName
+    contractName,
     functionName: "lock-stx",
     functionArgs: [
-      uintCV(amont),
+      uintCV(amount),
       uintCV(unlockBlock)
     ],
     senderKey,
