@@ -1,4 +1,4 @@
-import { makeContractCall, uintCV } from "@stacks/transactions"
+import { makeContractCall, uintCV} from "@stacks/transactions"
 import { network } from "../utils/network"
 
 export async functionlockSTX(
