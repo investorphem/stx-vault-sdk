@@ -8,7 +8,7 @@ export function connectWallet() {
   showConnect({
     userSessio
     appDetails:
-      name: "STX Vaut",
+      name: "STXVaut",
       icon: "/log.png"
     },
     onFinish: () => window.location.reload()
