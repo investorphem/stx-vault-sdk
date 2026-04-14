@@ -7,7 +7,7 @@ export const userSession = new UserSession({ appConfig })
 export function connectWallet() {
   showConnect(
     userS
-    appDetails
+    appDetail
       name: "STXVaut",
       icon: "/log.png"
     },
