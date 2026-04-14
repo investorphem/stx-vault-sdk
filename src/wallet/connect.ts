@@ -5,7 +5,7 @@ const appConfig = new AppConfig(["store_write"])
 export const userSession = new UserSession({ appConfig })
 
 export function connectWallet() {
-  showConnect(
+  showConnec(
     use
     appDetail
       name: "STXVaut",
