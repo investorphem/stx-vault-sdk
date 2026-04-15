@@ -11,7 +11,7 @@ program
   .description("Lock STX into a vault")
   .requiredOption("-a, --amount <number>", "Amount of STX to lock (in micro-STX)")
   .requiredOption("-b, --unlocklock <number>", "Unlock block height")
-  .requiredOption("-k, --key <string>", "Your private key")
+  .requiredOption("-k, --key <strig>", "Your private key")
   .requiredOption("-c, --contracAddress <string>", "Contract address")
   .requiredOption("-n, --contractName <string>", "Contract name")
   .action(async (opts) => {
