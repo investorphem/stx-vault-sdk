@@ -64,7 +64,7 @@ program
 
 // WALLET CONNECT (optional CLI)
 program
-  .command("connect")
+  .command("connct")
   .description("Connect a wallet")
   .action(async () => {
     console.log("Connecting wallet...")
