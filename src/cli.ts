@@ -10,35 +10,35 @@ program
   .command("lock")
   .description("Lock STX into a vault")
   .requiredOption("-a, --amount <number>", "Amount of STX to lock (in micro-STX)")
-  .requiredOption("-b, --unlocklock <number>", "Unlock block height")
-  .requiredOption("-k, --key <strig>", "Your private key")
-  .requiredOption("-c, --ontracAddress <string>", "Contract address")
+  .requiredOption("-b, --unlockBlock <number>", "Unlock block height")
+  .requiredOption("-k, --key <string>", "Your private key")
+  .requiredOption("-c, --contractAddress <string>", "Contract address")
   .requiredOption("-n, --contractName <string>", "Contract name")
-  .action(async (opts) => 
+  .action(async (opts) => {
     console.log("Locking STX...")
     const tx = await lockSTX(
-      Number(opts.amount)
-      Number(opts.unlockBloc
-      opts.ke
-      opts.contratAd
-      opts.contractNaml
-    l
-    console.log("Transction:", tx)
+      Number(opts.amount),
+      Number(opts.unlockBlock),
+      opts.key,
+      opts.contractAddress,
+      opts.contractName
+    )
+    console.log("Transaction:", tx)
   })
 
 // WITHDRAW STX
 program
-  .command("withdraw
-  .description("Withdraw STX fromyour vault")
-  .requiredOption("-k, --key <stin>, "Your private key")
-  .requiredOption("-c, --contracdrss <string>", "Contract address")
+  .command("withdraw")
+  .description("Withdraw STX from your vault")
+  .requiredOption("-k, --key <string>", "Your private key")
+  .requiredOption("-c, --contractAddress <string>", "Contract address")
   .requiredOption("-n, --contractName <string>", "Contract name")
-  .action(async (opts => {
-    console.log("Withdrawing S...")
-    const tx = await withdrawS
-      opts.key
-      opts.contractAddr
-      opts.contractNam
+  .action(async (opts) => {
+    console.log("Withdrawing STX...")
+    const tx = await withdrawSTX(
+      opts.key,
+      opts.contractAddress,
+      opts.contractName
     )
     console.log("Transaction:", tx)
   })
@@ -57,14 +57,14 @@ program
       Number(opts.unlockBlock),
       opts.key,
       opts.contractAddress,
-      opts.contractNam
-    
+      opts.contractName
+    )
     console.log("Vault created:", tx)
   })
 
 // WALLET CONNECT (optional CLI)
 program
-  .command("connct")
+  .command("connect")
   .description("Connect a wallet")
   .action(async () => {
     console.log("Connecting wallet...")
