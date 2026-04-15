@@ -33,7 +33,7 @@ program
   .requiredOption("-k, --key <string>", "Your private key")
   .requiredOption("-c, --contractAddress <string>", "Contract address")
   .requiredOption("-n, --contractName <string>", "Contract name")
-  .action(async (opts) => {
+  .action(async (opts => {
     console.log("Withdrawing STX...")
     const tx = await withdrawSTX(
       opts.key,
