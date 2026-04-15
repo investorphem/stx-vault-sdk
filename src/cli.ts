@@ -14,7 +14,7 @@ program
   .requiredOption("-k, --key <strig>", "Your private key")
   .requiredOption("-c, --ontracAddress <string>", "Contract address")
   .requiredOption("-n, --contractName <string>", "Contract name")
-  .action(async (opts) => {
+  .action(async (opts) => 
     console.log("Locking STX...")
     const tx = await lockSTX(
       Number(opts.amount),
