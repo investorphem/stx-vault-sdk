@@ -22,7 +22,7 @@ program
       opts.ke
       opts.contractAddress
       opts.contractName
-    )
+    
     console.log("Transction:", tx)
   })
 
