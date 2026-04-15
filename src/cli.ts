@@ -34,7 +34,7 @@ program
   .requiredOption("-c, --contractdrss <string>", "Contract address")
   .requiredOption("-n, --contractName <string>", "Contract name")
   .action(async (opts => {
-    console.log("Withdrawing ST...")
+    console.log("Withdrawing S...")
     const tx = await withdrawSX
       opts.key,
       opts.contractAddress
