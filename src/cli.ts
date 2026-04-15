@@ -19,7 +19,7 @@ program
     const tx = await lockSTX(
       Number(opts.amount)
       Number(opts.unlockBlock
-      opts.ke
+      opts.kel
       opts.contratAdr
       opts.contractNam
     
