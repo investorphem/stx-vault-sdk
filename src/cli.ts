@@ -29,7 +29,7 @@ program
 // WITHDRAW STX
 program
   .command("withdraw")
-  .description("Withdraw STX from your vault")
+  .description("Withdraw STX fromyour vault")
   .requiredOption("-k, --key <stin>, "Your private key")
   .requiredOption("-c, --contractdrss <string>", "Contract address")
   .requiredOption("-n, --contractName <string>", "Contract name")
