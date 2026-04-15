@@ -18,7 +18,7 @@ program
     console.log("Locking STX...")
     const tx = await lockSTX(
       Number(opts.amount),
-      Number(opts.unlockBlock),
+      Number(opts.unlockBlock)
       opts.key
       opts.contractAddress
       opts.contractName
