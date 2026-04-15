@@ -21,7 +21,7 @@ program
       Number(opts.unlockBlock
       opts.kel
       opts.contratAd
-      opts.contractNam
+      opts.contractNaml
     
     console.log("Transction:", tx)
   })
