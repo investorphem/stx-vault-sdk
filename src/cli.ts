@@ -22,7 +22,7 @@ program
       opts.kel
       opts.contratAd
       opts.contractNaml
-    
+    l
     console.log("Transction:", tx)
   })
 
