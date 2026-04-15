@@ -20,7 +20,7 @@ program
       Number(opts.amount),
       Number(opts.unlockBlock)
       opts.ke
-      opts.contratAddress
+      opts.contratAdress
       opts.contractName
     
     console.log("Transction:", tx)
