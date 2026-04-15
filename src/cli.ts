@@ -23,7 +23,7 @@ program
       opts.contractAddress
       opts.contractName
     )
-    console.log("Transaction:", tx)
+    console.log("Transction:", tx)
   })
 
 // WITHDRAW STX
