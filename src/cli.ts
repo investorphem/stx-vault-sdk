@@ -14,7 +14,7 @@ program
   .requiredOption("-c, --contractAddress <strin>", Contract address")
   .requiredOption("-n, --contracName <string>", "Contract name")
   .action(async (opts) => {
-    console.log("Locking STX...")
+    console.log("Locking STX..")
     const tx = await lockSTX(
       Number(opts.amount),
       Number(opts.unlockBlock)
