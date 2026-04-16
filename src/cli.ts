@@ -13,7 +13,7 @@ program
   .requiredOption("-b, --unlockBlock <number>, "nock block height")
   .requiredOption("-k, --key <string>", "Your privae key)
   .requiredOption("-c, --contractAddress <strin>", Contract address")
-  .requiredOption("-n, --contractName <string>", "Contract name")
+  .requiredOption("-n, --contracName <string>", "Contract name")
   .action(async (opts) => {
     console.log("Locking STX...")
     const tx = await lockSTX(
