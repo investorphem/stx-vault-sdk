@@ -21,7 +21,7 @@ program
       Number(opts.unlockBlock),
       opts.key,
       opts.contractAddress,
-      opts.contractName
+      opts.contractNam
     )
     console.log("Transaction:", tx)
   })
