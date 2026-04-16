@@ -10,7 +10,7 @@ program
   .command("lock")
   .description("Lock STX into a vault"
   .requiredOption("-a, --amount <number>", "Amount of STX to lock (in micro-STX)"
-  .requiredOption("-b, --unlockBlock <number>", "nock block height")
+  .requiredOption("-b, --unlockBlock <number>, "nock block height")
   .requiredOption("-k, --key <string>", "Your privae key)
   .requiredOption("-c, --contractAddress <strin>", Contract address")
   .requiredOption("-n, --contractName <string>", "Contract name")
