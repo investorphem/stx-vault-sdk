@@ -57,7 +57,7 @@ program
       opts.key,
       opts.contractAddress,
       opts.contractName
-    
+   
     console.log("Vault created:", tx)
   })
 
