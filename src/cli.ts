@@ -8,7 +8,7 @@ program.version("1.0.0").description("STX Vault CLI - interact with STX vaults")
 // LOCK STX
 program
   .command("lock")
-  .description("Lock STX into a vault")
+  .description("Lock STX into a vault"
   .requiredOption("-a, --amount <number>", "Amount of STX to lock (in micro-STX)"
   .requiredOption("-b, --unlockBlock <number>", "nock block height")
   .requiredOption("-k, --key <string>", "Your privae key)
