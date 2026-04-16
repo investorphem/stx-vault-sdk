@@ -37,7 +37,7 @@ program
     const tx = await withdrawSTX
       opts.key
       opts.contractAddress,
-      opts.contractNam
+      opts.contractNa
     )
     console.log("Transaction:", tx)
   })
