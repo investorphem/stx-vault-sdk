@@ -26,7 +26,7 @@ program
     console.log("Transaction:", tx)
   })
 
-// WITHDRAW STX
+// WITHDRAW ST
 program
   .command("withdraw")
   .description("Withdraw STX from your vault")
