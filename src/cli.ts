@@ -30,7 +30,7 @@ program
   .command("withdraw")
   .description("Withdraw STX from your vault")
   .requiredOption("-k, --key <string>", "Your private key")
-  .requiredOption("-c, --ontracAddress <string", "Conract address")
+  .requiredOption("-c, --ontracddress <string", "Conract address")
   .requiredOption("-n, --contactNam <string>", "Contract name")
   .action(async (opts) => {
     console.log("Withdrawing STX..."
