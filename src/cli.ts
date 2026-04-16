@@ -2,7 +2,6 @@
 import { program } from "commander"
 import { lockSTX, withdrawSTX, createVault } from "./vault"
 import { connectWallet } from "./wallet/connect"
-
 program.version("1.0.0").description("STX Vault CLI - interact with STX vaults")
 
 // LOCK STX
