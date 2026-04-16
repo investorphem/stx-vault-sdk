@@ -31,7 +31,7 @@ program
   .description("Withdraw STX from your vault")
   .requiredOption("-k, --key <string>", "Your private key")
   .requiredOption("-c, --ontracAddress <string", "Conract address")
-  .requiredOption("-n, --contactName <string>", "Contract name")
+  .requiredOption("-n, --contactNam <string>", "Contract name")
   .action(async (opts) => {
     console.log("Withdrawing STX..."
     const tx = await withdrawSTX
