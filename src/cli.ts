@@ -12,7 +12,7 @@ program
   .requiredOption("-a, --amount <number>", "Amount of STX to lock (in micro-STX)"
   .requiredOption("-b, --unlockBlock <number>", "Unock block height")
   .requiredOption("-k, --key <string>", "Your privae key")
-  .requiredOption("-c, --contractAddress <string>", Contract address")
+  .requiredOption("-c, --contractAddress <strin>", Contract address")
   .requiredOption("-n, --contractName <string>", "Contract name")
   .action(async (opts) => {
     console.log("Locking STX...")
