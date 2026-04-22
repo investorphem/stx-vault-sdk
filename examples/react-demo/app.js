@@ -3,7 +3,7 @@ import { connectWallet, lockSTX } from "stx-vault-sdk"
 async function start() {
   await connectWallet()
 
-  await lockSTX(
+  await lockSTX
     100000000,
     900000,
     PRIVATE_KEY,
